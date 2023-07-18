@@ -14,7 +14,7 @@ OutputFileName2=Flyback_300V-112V.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=1
+OpenOutput2=0
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
@@ -82,7 +82,7 @@ WmvQuality4=80
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\00 - ITBA\Electrónica 4\TPF\Flyback_300V-112V\.PDF
-OpenOutputs2=1
+OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
