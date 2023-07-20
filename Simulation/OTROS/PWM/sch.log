@@ -1,13 +1,31 @@
 Circuit: * D:\00 - ITBA\Electrónica 4\TPF\TP-FINAL\Simulation\OTROS\PWM\sch.asc
 
-Warning: Multiple definitions of model "mysw" Type: Switch
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 WARNING: Less than two connections to node u7:dp.  This node is used by a:u7:ddel.
 U4:v3: Missing value, assumed 0V @ DC
-Direct Newton iteration for .op point succeeded.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.98679
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 2.00036
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
 Ignoring empty pin current: Ix(u7:vdd)
 Ignoring empty pin current: Ix(u8:vdd)
 Ignoring empty pin current: Ix(u9:vdd)
@@ -15,21 +33,21 @@ Ignoring empty pin current: Ix(u7:vdd)
 Ignoring empty pin current: Ix(u8:vdd)
 Ignoring empty pin current: Ix(u9:vdd)
 
-Date: Thu Jul 20 15:48:44 2023
-Total elapsed time: 0.382 seconds.
+Date: Thu Jul 20 16:09:19 2023
+Total elapsed time: 0.684 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2195
+totiter = 3607
 traniter = 2154
 tranpoints = 1077
 accept = 1074
 rejected = 3
 matrix size = 184
-fillins = 285
+fillins = 185
 solver = Normal
 Avg thread counts: 2.3/3.5/3.5/2.3
-Matrix Compiler1: 27.05 KB object code size  7.0/4.3/[2.1]
-Matrix Compiler2: 17.59 KB object code size  3.1/4.2/[1.8]
+Matrix Compiler1: 18.03 KB object code size  6.6/6.1/[1.4]
+Matrix Compiler2: 15.85 KB object code size  3.3/3.9/[1.7]
 
