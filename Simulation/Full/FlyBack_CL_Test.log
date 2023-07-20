@@ -1,0 +1,29 @@
+Circuit: * D:\00 - ITBA\Electrónica 4\Trabajos Prácticos\TP2-Flyback\TP2-FlyBack\Simulation\PWM\FlyBack_CL_Test.asc
+
+WARNING: Node NC_04 is floating.
+
+WARNING: Less than two connections to node nc_02.  This node is used by r:u1:18.
+WARNING: Less than two connections to node nc_03.  This node is used by d3.
+WARNING: Less than two connections to node nc_04.  This node is used by r11.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:gnd)
+Ignoring empty pin current: Ix(u1:gnd)
+
+Date: Tue May  9 17:49:24 2023
+Total elapsed time: 26.455 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2069582
+traniter = 2069557
+tranpoints = 557803
+accept = 386896
+rejected = 170907
+matrix size = 74
+fillins = 12
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 3.41 KB object code size  9.9/6.3/[2.4]
+Matrix Compiler2: 4.98 KB object code size  6.3/8.2/[2.3]
+
